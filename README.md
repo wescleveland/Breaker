@@ -9,9 +9,7 @@ Just add this line at import time:
 
 When an exception is hit, you are greeted with:
 
-<pre><code>
-Remote Debugger:6900: Please telnet 127.0.0.1 6900.  Type `exit` in session to continue.
-Remote Debugger:6900: Waiting for client...
-</pre></code>
+<pre><code>Remote Debugger:6900: Please telnet 127.0.0.1 6900.  Type `exit` in session to continue.
+Remote Debugger:6900: Waiting for client...</pre></code>
 
 Combine this with pdb++'s sticky lines to get a great picture of where your code crapped its pants.
